@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:id="@+id/sdv_show"/>
+    <TextView
+        android:textSize="25sp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_show"/>
+
+</LinearLayout>
